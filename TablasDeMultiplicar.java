@@ -16,7 +16,7 @@ public class TablasDeMultiplicar {
     public static void main(String[] args) {
         Scanner TablasDeMultiplicar = new Scanner(System.in);
 
-        System.out.print("Ingrese el número de la tabla de multiplicar que desea ver: ");
+        System.out.print("Ingrese el numero de la tabla de multiplicar que desea ver: ");
         int numeroTabla = TablasDeMultiplicar.nextInt();
 
         System.out.println("Tabla de multiplicar del " + numeroTabla + ":");
